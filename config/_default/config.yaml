@@ -1,0 +1,47 @@
+baseURL: https://docs.osumontreal.ca/
+
+enableGitInfo: true
+theme: learn
+defaultContentLanguage: fr
+defaultContentLanguageInSubdir: true
+
+relativeURLs: true
+removePathAccents: true
+
+permalinks:
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+
+imaging:
+  resampleFilter: box
+  quality: 100 # default is 75
+  anchor: center # default is smart
+  bgColor: '#ffffff' # default bg color for JPGs // TODO: make it dark or light based on theme.
+
+# Taxonomies.
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+# No newline (<br/>) unless unsafe is enabled
+# https://gohugo.io/news/0.60.0-relnotes/
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  # highlight:
+  #   anchorLineNos: true
+  #   lineNos: true
+
+params:
+  themeVariant: "osum"
+  editURL: https://github.com/osumontreal/documentation/edit/master/content/
+  description: Documentation for Open Science UMontreal community
+  author: Open Science UMontreal contributors
+  showVisitedLinks: true
+  disableBreadcrumb: false
+  disableNextPrev: false
+  disableLandingPageButton: true
+  disableMermaid: false
+  customMermaidURL: 'https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js'
+  titleSeparator: '::'
