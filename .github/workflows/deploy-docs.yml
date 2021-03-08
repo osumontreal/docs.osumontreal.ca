@@ -1,0 +1,40 @@
+# This workflow makes sure the website builds without error on `pushes` to the `main` branch
+# and on `pull requests` that are opened to `main`
+# Deploy to gh-pages only when PRs are merged and pass all the checks.
+# Add cname file to gh-pages branch to use custom domain (docs.osumontreal.ca).
+
+name: Hugo test & deploy
+
+on:
+  push:
+    branches:
+      - main # Branch to deploy
+  pull_request:
+    branches:
+      - main # Test PR only if main is the target branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.81.0"
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy website on push
+        if: ${{ success() && github.event_name == 'push' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: docs.osumontreal.ca
