@@ -8,12 +8,13 @@ fr:
   weight: 1
   menu:
     shortcuts:
-      - name: <i class='fas fa-fw fa-camera'></i> Site Web d'Open Science UMontreal
+      - name:
+          <i class='fas fa-fw fa-camera'></i> Site Web d'Open Science UMontreal
         url: https://osumontreal.ca
         weight: 10
       - name: <i class='fab fa-fw fa-github'></i> Répertoire GitHub
         identifier: ds
-        url: 'https://github.com/osumontreal/docs.umontreal.ca'
+        url: "https://github.com/osumontreal/docs.umontreal.ca"
         weight: 15
       - name: <i class='fas fa-fw fa-bullhorn'></i> Crédits
         url: /credits
@@ -22,20 +23,19 @@ fr:
       # - name: "Facebook"
       #   url:  "#facebook"
       - name: "Twitter"
-        url:  "https://twitter.com/OSUMontreal"
+        url: "https://twitter.com/OSUMontreal"
       - name: "Mastodon"
-        url:  "https://fosstodon.org/web/accounts/286300"
+        url: "https://fosstodon.org/web/accounts/286300"
     footer:
       - name: "Colophon"
-        url:  "#"
+        url: "#"
         weight: 10
       - name: "Confidentialité"
-        url:  "#"
+        url: "#"
         weight: 20
       - name: "Accessibilité"
-        url:  "#"
+        url: "#"
         weight: 30
-
 
 en:
   languageName: English
@@ -51,7 +51,7 @@ en:
         url: https://osumontreal.ca
         weight: 10
       - name: <i class='fab fa-fw fa-github'></i> GitHub repo
-        url: 'https://github.com/osumontreal/docs.umontreal.ca'
+        url: "https://github.com/osumontreal/docs.umontreal.ca"
         weight: 15
       - name: <i class='fas fa-fw fa-bullhorn'></i> Credits
         url: /credits
@@ -60,16 +60,16 @@ en:
       # - name: "Facebook"
       #   url:  "#facebook"
       - name: "Twitter"
-        url:  "https://twitter.com/OSUMontreal"
+        url: "https://twitter.com/OSUMontreal"
       - name: "Mastodon"
-        url:  "https://fosstodon.org/web/accounts/286300"
+        url: "https://fosstodon.org/web/accounts/286300"
     footer:
       - name: "Colophon"
-        url:  "#"
+        url: "#"
         weight: 10
       - name: "Privacy"
-        url:  "#"
+        url: "#"
         weight: 20
       - name: "Accessibility"
-        url:  "#"
+        url: "#"
         weight: 30
