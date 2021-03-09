@@ -27,7 +27,7 @@ markup:
   #   lineNos: true
 
 params:
-  # themeVariant: "osum"
+  themeVariant: "osum"
   editURL: https://github.com/osumontreal/documentation/edit/master/content/
   description: Documentation for Open Science UMontreal community
   author: Open Science UMontreal contributors
