@@ -1,9 +1,4 @@
-{{if eq .Site.Language.Lang "en"}}
-<a href="/en">
-  <img src="/img/logo_en.svg" alt="" />
+<!-- See: https://gohugo.io/content-management/static-files/#readout -->
+<a href="{{ "/" | relLangURL }}">
+  <img src="{{ printf "/img/%s/logo.svg" .Site.Language.Lang }}" alt="" />
 </a>
-{{ else if eq .Site.Language.Lang "fr"}}
-<a href="/fr">
-  <img src="/img/logo.svg" alt="" />
-</a>
-{{end}}
