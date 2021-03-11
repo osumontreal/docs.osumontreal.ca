@@ -30,7 +30,7 @@ Merci à eux d'avoir amélioré l'Open Science et les logiciels Open Source!
 - [Matrix](https://matrix.org/) - Un réseau ouvert pour une communication
   sécurisée et décentralisée disponible gratuitement.
 
-## _Packages_[^1] et _libraries_[^1]
+## _Packages_ et _libraries_
 
 - [hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn) - Un thème
   multilingue entièrement conçu pour la documentation qui a été le point de
