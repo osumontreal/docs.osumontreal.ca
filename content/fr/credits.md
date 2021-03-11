@@ -15,8 +15,7 @@ Merci à eux d'avoir amélioré l'Open Science et les logiciels Open Source!
 
 - [Matrix at TU Dresden](https://doc.matrix.tu-dresden.de/en/) - L'équipe
   derrière Matrix à TU Dresden fournit une merveilleuse documentation disponible
-  sous une license [CC BY-SA 4.0](https :
-  //creativecommons.org/licenses/by-sa/4.0/legalcode) que nous avons adaptée à
+  sous une license [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) que nous avons adaptée à
   nos besoins. Voir notre section [Matrix
   Documentation]({{<relref "matrix/_index.md">}}) pour un aperçu.
 
