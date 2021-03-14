@@ -28,14 +28,13 @@ following structure: `@USERNAME:openscience.ca`
 ## Sign in process
 
 1. Click on the blue _Sign in_ button.
-2. The default option is to enter your _Username_, but you can change the
-   _Username_ option for the email address you signed up with or your phone
-   number, via the drop-down menu "_Sign in with:_". We recommend leaving it to
-   the default option, namely _Username_. Then the following entries must be
-   made:
-3. Enter your username and password
-4. Click on _Sign In_
-5. You are now signed in, congratulations! :tada:
+1. The default option is to enter your _Username_, but you can change the
+   _Username_ option for the email address you signed up with via the drop-down
+   menu "_Sign in with:_". We recommend leaving it to the default option, namely
+   _Username_.
+1. Enter your username and password
+1. Click on _Sign In_
+1. You are now signed in, congratulations! :tada:
 
 {{% notice warning %}} If you want to immediately start using a [Matrix
 Client]({{< relref "../clients" >}}) instead of the above mentioned website
@@ -61,11 +60,12 @@ and malware in the browser, for example with the addon
 to make the following settings (for the integration manager, e.g.
 Jitsi/Etherpad)
 
-<!-- ![Browser plugin settings NoScript with openscience.ca and vector.im selected as trusted script sources](/images/10_Sicherheit2_en.png) -->
+<!-- ![Browser plugin settings NoScript with openscience.ca and vector.im selected as trusted script sources](.png) -->
 
 ### Cookies
 
-You will allow cookies from
+You may also want to allow cookies from the 2 sites below for a smoother
+experience.
 
 - openscience.ca
 - vector.im (for the integration and app manager)

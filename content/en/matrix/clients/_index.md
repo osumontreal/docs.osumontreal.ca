@@ -8,15 +8,17 @@ weight: 15
 
 # Installation of a client / program
 
-The recommended client[^1] for using Matrix is called Element, formerly known as
-Riot.im, and it is free to use. It can be used on different systems and devices:
+To connect to the Matrix federation, you will use a client. The recommended
+client for using Matrix is called Element[^1] and it is free to use. Element is
+the official client developped by the Matrix core team and the only one we
+officially support. It can be used on different systems and devices:
 
 1. **Element Web:**
    [The browser web application provided by the OSUM team](#web-app)
 1. **Element Desktop:** [Downloads for Linux/Windows/Mac](#desktop-app)
 1. **Element mobile:** [Android/iOS](#mobile-app)
 
-<!-- ![Element page for client download](/images/12_Element-Download.png) -->
+![Element page for client download](get-element.png)
 
 ## Element Web {#web-app}
 
@@ -59,11 +61,12 @@ Downloads for:
 Further information can be found in the submenu ["Element
 Mobile"]({{< ref "mobile.md" >}} "Element Mobile").
 
-[^1]:
-    To connect to the Matrix federation, you will use a client. Element is the
-    official client developped by the Matrix core team and the only one we
-    provide. However, if you are familiar with such technologies, you may be
-    tempted to use one of the
-    [many clients developped by the community](https://matrix.org/clients/).
-    Note that we will probably not be able to help you if you encounter bugs on
-    other clients than Element.
+## Other clients
+
+If you are familiar with such technologies, you may be tempted to use one of the
+[many clients](https://matrix.org/clients/) developped by the community. Note
+that we will probably not be able to help you if you encounter bugs on other
+clients than Element. Refer to the [Other
+clients]({{% relref "more_clients" %}}) section for more information.
+
+[^1]: Element was formerly known as Riot.im before it became Element.
