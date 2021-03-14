@@ -16,7 +16,7 @@ If you just want to run the website locally, simply run the following command:
 
 ## [License](LICENSE)
 
-Copyright (c) 2021 - Samuel Guay & Danny Colin
+Copyright (c) 2021 - OSUMontreal and contributors
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
