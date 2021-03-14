@@ -196,6 +196,21 @@ tr:last-child td:last-child {
   border-bottom-right-radius: 4px;
 }
 
+
+sub, sup {
+  font-weight: bold;
+  vertical-align: top;
+}
+
+sup {
+  top: unset;
+}
+
+h1 sub,
+h1 sup {
+  font-size: 0.6em;
+}
+
 #chapter p {
   text-align: left;
 }
