@@ -3,15 +3,15 @@ fr:
   contentDir: content/fr
   landingPageURL: /fr
   landingPageName: <i class='fas fa-home'></i> Accueil
-  title: Documentation pour Open Science UMontreal
+  title: Documentation pour Open Science UMontréal
   summaryLength: 10
   weight: 1
   menu:
     shortcuts:
-      - name:
-          <i class='fas fa-fw fa-camera'></i> Site Web d'Open Science UMontreal
-        url: https://osumontreal.ca
-        weight: 10
+      # - name:
+      #     <i class='fas fa-fw fa-camera'></i> Site Web d'Open Science UMontreal
+      #   url: https://osumontreal.ca
+      #   weight: 10
       - name: <i class='fab fa-fw fa-github'></i> Répertoire GitHub
         identifier: ds
         url: "https://github.com/osumontreal/docs.umontreal.ca"
@@ -47,9 +47,9 @@ en:
   weight: 2
   menu:
     shortcuts:
-      - name: <i class='fas fa-fw fa-camera'></i> Open Science UMontreal Website
-        url: https://osumontreal.ca
-        weight: 10
+      # - name: <i class='fas fa-fw fa-camera'></i> Open Science UMontreal Website
+      #   url: https://osumontreal.ca
+      #   weight: 10
       - name: <i class='fab fa-fw fa-github'></i> GitHub repo
         url: "https://github.com/osumontreal/docs.umontreal.ca"
         weight: 15
