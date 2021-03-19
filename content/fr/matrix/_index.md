@@ -11,5 +11,5 @@ draft: true
 décentralisé pour la communication en temps réel également connue sous le nom
 d'un de ses clients - [Element](https://element.io).
 
-Si vous des questions, nous vous invités à venir discuter avec nous au
+Si vous avez des questions, nous vous invitons à venir discuter avec nous au
 https://chat.openscience.ca.
