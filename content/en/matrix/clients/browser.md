@@ -11,11 +11,12 @@ weight: 10
 In order to use our Element Web client, you have to go
 [https://chat.openscience.ca](https://chat.openscience.ca).
 
-{{% notice info %}} Unless you have already registered with another matrix
-server and know how to join our server through the federation, the first time
-you use our service, you will have to register by clicking on
-"[Create Account](https://chat.openscience.ca/#/register)" on the homepage
-[https://chat.openscience.ca](https://chat.openscience.ca).
+{{% notice info %}} The first time you use our service, you will have to
+register by clicking on
+"[Create Account](https://chat.openscience.ca/#/register)" on the chat homepage
+[https://chat.openscience.ca](https://chat.openscience.ca) unless you have
+already registered with another matrix server and know how to join our server
+through the federation.
 
 If you require help during the registration process, you can refer to the [First
 steps]({{% ref "matrix/first-steps" %}}) section.
@@ -36,11 +37,10 @@ following structure: `@USERNAME:openscience.ca`
 1. Click on _Sign In_
 1. You are now signed in, congratulations! :tada:
 
-{{% notice warning %}} If you want to immediately start using a [Matrix
-Client]({{< relref "../clients" >}}) instead of the above mentioned website
-(Element Web-App installed at openscience.ca), it is important to change the
-home server from the default matrix.org server to https://matrix.openscience.ca
-{{% /notice %}}
+{{% notice warning %}} If you want to immediately start using another [Matrix
+Client]({{< relref "../clients" >}}) instead of the Element Web client installed
+at chat.openscience.ca, it is important to change the home server from the
+default matrix.org server to https://matrix.openscience.ca {{% /notice %}}
 
 ## Browser settings
 

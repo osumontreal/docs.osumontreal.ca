@@ -29,7 +29,7 @@ server like matrix.org.
    change it. We recommend using your `FirstLastname` but you are free to pick
    any username that complies with our Code of Conduct.
 1. Click on the _Register_ button.
-1. Voilà, you should now be signed in the Matrix 🌐!
+1. Voilà, you should now be signed in in the Matrix 🌐!
 
 ### Sign in
 
