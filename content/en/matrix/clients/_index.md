@@ -59,7 +59,7 @@ Downloads for:
 {{% button href="https://f-droid.org/packages/im.vector.app/" icon="fas fa-download" %}}Android (F-Droid){{% /button %}}
 
 Further information can be found in the submenu ["Element
-Mobile"]({{< ref "mobile.md" >}} "Element Mobile").
+Mobile"]({{< ref "mobile" >}} "Element Mobile").
 
 ## Other clients
 
