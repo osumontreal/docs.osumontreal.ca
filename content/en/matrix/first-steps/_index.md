@@ -1,7 +1,6 @@
 ---
 menutitle: First steps
 title: First steps - How to use Matrix?
-chapter: false
 draft: false
 weight: 2
 ---
@@ -16,6 +15,7 @@ weight: 2
   - [Element Phone client](#element-phone-client)
 - [3. Crucial information to know](#3-crucial-information-to-know)
   - [Convenient use of end-to-end encryption (E2EE)](#convenient-use-of-end-to-end-encryption-e2ee)
+- [4. Still have questions?](#4-still-have-questions)
 
 ## 1. How to register?
 
@@ -161,3 +161,9 @@ can be calculated from it) all cryptographic keys are stored encrypted.
 {{% notice info %}} It is highly recommended to read more about [encryption in
 its own dedicated section]({{< relref "encryption" >}}) to prevent unforeseen
 damage! {{% /notice %}}
+
+## 4. Still have questions?
+
+Answers to questions from our users are available in the
+[FAQ]({{< relref "faq" >}}). You can always come and ask us questions in the
+`#support:openscience.ca` room or by email at <matrix@openscience.ca>.

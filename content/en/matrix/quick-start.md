@@ -1,6 +1,6 @@
 ---
 title: Quick start
-weight: 1
+weight: 100
 ---
 
 This _quick start guide_ is meant to get you started in less than one minute

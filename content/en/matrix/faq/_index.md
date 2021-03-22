@@ -7,9 +7,9 @@ weight: 200
 This is a collection of frequently asked questions and their answers. Some of
 the answers are not yet written. In these cases please ask in the support room
 `#support:openscience.ca`. Beware that it is community support, so you may not
-get a reply within seconds.
+get a reply immediately.
 
-{{%expand "Messages not readable" %}}
+{{% expand "Messages not readable" %}}
 
 - At least one verified session must be open at all times, the easiest way to do
   this is to set up the Desktop Client or Element on a smartphone. These
@@ -26,63 +26,64 @@ get a reply within seconds.
   set up properly?
 - Messages remain unreadable when matrix sessions are created and then the web
   browser window is simply closed without logging out. Solution: only possible
-  for new messages: read this documentation. {{% /expand%}}
+  for new messages: read this documentation. {{% /expand %}}
 
 ---
 
-{{%expand "What is the difference between passphrase and recovery key?" %}} The
+{{% expand "What is the difference between passphrase and recovery key?" %}} The
 password that can access the key backup is called the recovery key and is very
 long, starts with a capital E and should be saved or printed after setup. Since
 this password is hard to remember in everyday life (e.g. when you are on the
 road, want to have a look at Matrix, but only have access to other computers)
 you can think of a (easy to remember) passphrase from which the recovery key can
 be calculated (in the browser/client) before trying to "open" the key backup.
-{{% /expand%}}
+{{% /expand %}}
 
 ---
 
-{{%expand "Why is there no status bar at the bottom of the screen when hovering over hyperlinks in the Desktop-Client element? How can you trust them then? " %}}
+{{% expand "Why is there no status bar at the bottom of the screen when hovering over hyperlinks in the Desktop-Client element? How can you trust them then? " %}}
 In fact, the status bar is a popular test of the seriousness of hyperlinks you
 are trying to click on. In the Desktop Client element this is not possible,
 similar to the mobile clients. Here you can only right-click on the link and
-check the presented target page for seriousness. {{% /expand%}}
+check the presented target page for seriousness. {{% /expand %}}
 
 ---
 
-{{%expand "How to tell people a room address with Element Desktop Client?" %}}
+{{% expand "How to tell people a room address with Element Desktop Client?" %}}
 You can see the public address when you click on the `I` (ℹ️) icon in the top
 right corner. It will open a sidebar and display the address below the picture
 and the name (`#room:openscience.ca`). To get the link for a direct access from
 outside Matrix, click on "Share room" and you will see a link starting with
 `https://matrix.to...`.
 
-{{% /expand%}}
+{{% /expand %}}
 
 ---
 
-{{%expand "Can I write LaTeX formulas?" %}} It is an experimental feature as of
+{{% expand "Can I write LaTeX formulas?" %}} It is an experimental feature as of
 March 2021. It will be available for everybody within the coming weeks. You can
 get the latest update from this
-[issue](https://github.com/vector-im/element-web/issues/1945). {{% /expand%}}
+[issue](https://github.com/vector-im/element-web/issues/1945). {{% /expand %}}
 
 ---
 
-{{%expand "Are there something like Threads (like in Mattermost/Slack) in Matrix?" %}}
+{{% expand "Are there something like Threads (like in Mattermost/Slack) in Matrix?" %}}
 No, threads like in Mattermost or Slack are currently not available in Matrix.
 The developers of Element are working hard to implement such functionality in
 the near future. In the meantime, you can hit the `reply` (↩️) button when you
 hover a message to keep conversations tidy. To get more information, follow
-their [roadmap](https://github.com/vector-im/roadmap/projects/1). {{% /expand%}}
+their [roadmap](https://github.com/vector-im/roadmap/projects/1).
+{{% /expand %}}
 
 ---
 
-{{%expand "I do not have a security key (recovery key)" %}} To do this, please
+{{% expand "I do not have a security key (recovery key)" %}} To do this, please
 check whether this has been set up first. See [Secure
-backup]({{< relref "matrix/settings/#secure-backup" >}}) {{% /expand%}}
+backup]({{< relref "matrix/settings/#secure-backup" >}}) {{% /expand %}}
 
 ---
 
-{{%expand "How do I change the passphrase for my backup key?" %}}
+{{% expand "How do I change the passphrase for my backup key?" %}}
 
 - Export the room keys for all matrix sessions except for one, which is still
   accessible, `Settings` -> `Security & Privacy` -> `Encryption`/`Cryptography`,
@@ -97,11 +98,11 @@ backup]({{< relref "matrix/settings/#secure-backup" >}}) {{% /expand%}}
   action was successful, if only the green 'Setup' button is displayed.
 - For all previously exported key backups, perform the manual import path
 - Set up a new security backup. See [Secure
-  backup]({{< relref "matrix/settings/#secure-backup" >}}) {{% /expand%}}
+  backup]({{< relref "matrix/settings/#secure-backup" >}}) {{% /expand %}}
 
 ---
 
-{{%expand "How do I reset the secure backup if I have lost my security phrase AND my (saved and printed) security key?" %}}
+{{% expand "How do I reset the secure backup if I have lost my security phrase AND my (saved and printed) security key?" %}}
 Please execute the following:
 
 - export the room keys for all matrix sessions except for one, which is still
@@ -132,47 +133,46 @@ Please execute the following:
   meeting
 - For all previously exported key backups, perform the manual import path
 - Set up a new security backup. See [Secure
-  backup]({{< relref "matrix/settings/#secure-backup" >}}) {{% /expand%}}
+  backup]({{< relref "matrix/settings/#secure-backup" >}}) {{% /expand %}}
 
 ---
 
-{{%expand "How can I, as the administrator, delete many messages at once?" %}}
-
-{{% /expand%}}
+{{% expand "How can I, as the administrator, delete many messages at once?" %}}
+It is not possible yet, but we expect it to be in the future!{{% /expand %}}
 
 ---
 
-{{%expand "How can I mark the room as 'unread' again?" %}} As of March 2021,
+{{% expand "How can I mark the room as 'unread' again?" %}} As of March 2021,
 this function has not been implemented yet. As a workaround, you can mark the
-room as a favorite to have a quick access to it. {{% /expand%}}
+room as a favorite to have a quick access to it. {{% /expand %}}
 
 ---
 
-{{%expand "What should I do if video or audio in a video conference does not work on a MacOS?" %}}
+{{% expand "What should I do if video or audio in a video conference does not work on a MacOS?" %}}
 Often Element does not have the rights to access the webcam and microphone.
 These can be assigned in the system settings under Security and Privacy.
-{{% /expand%}}
+{{% /expand %}}
 
 ---
 
-{{%expand "How many people can be invited at ones into a room? Can I invite people by their e-mail address?" %}}
+{{% expand "How many people can be invited at ones into a room? Can I invite people by their e-mail address?" %}}
 Mass invite by e-mail is currently not supported in Element. If you want to mass
 invite, please send an request via the `#support:openscience.ca` room, so we can
-assist. You can invite 100 people by their username yourself. {{% /expand%}}
+assist. You can invite 100 people by their username yourself. {{% /expand %}}
 
 ---
 
-{{%expand "What is the 'community/communities' option?" %}} Communities were
+{{% expand "What is the 'community/communities' option?" %}} Communities were
 created by Matrix to group multiple rooms together. However, major refactoring
 is happening on communities, which will become _'spaces'_ in the future. Spaces
 will be really powerful, we are excited to implement this feature as soon as
 possible! For the time being, you can play with _Communities_ but know that it
 will probably be not possible to import your _Communities_ into _Spaces_.
-{{% /expand%}}
+{{% /expand %}}
 
 ---
 
-{{%expand "Can I manage multiple Matrix-Account on my Element Desktop Client?" %}}
+{{% expand "Can I manage multiple Matrix-Account on my Element Desktop Client?" %}}
 With the Element Desktop client, you can only manage one Matrix-Account right
 now. But it is possible to start several Element-windows with different
 Matrix-Accounts, also within your Autostart-settings of your computer.
@@ -193,4 +193,6 @@ Matrix-Accounts per se, e.g.
 [weechat](https://matrix.org/docs/projects/client/weechat-matrix),
 [Spectral](https://matrix.org/docs/projects/client/spectral),
 [Quaternion](https://matrix.org/docs/projects/client/quaternion), or
-[Mirage](https://matrix.org/docs/projects/client/mirage). {{% /expand%}}
+[Mirage](https://matrix.org/docs/projects/client/mirage). {{% /expand %}}
+
+---
