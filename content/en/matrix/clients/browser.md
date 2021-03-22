@@ -1,12 +1,9 @@
 ---
-title: "Element Web (Browser)"
-titlehide: true
+menutitle: "Element Web (Browser)"
+title: Using our Element Web client
 draft: false
-chapter: false
 weight: 10
 ---
-
-# Using the [Element](https://chat.openscience.ca) Web client
 
 In order to use our Element Web client, you have to go
 [https://chat.openscience.ca](https://chat.openscience.ca).
@@ -18,15 +15,32 @@ register by clicking on
 already registered with another matrix server and know how to join our server
 through the federation.
 
-If you require help during the registration process, you can refer to the [First
+If you require help during the registration process, refer to the [First
 steps]({{% ref "matrix/first-steps" %}}) section.
-
-Analogous to e-mail addresses, this results in matrix addresses with the
-following structure: `@USERNAME:openscience.ca`
 
 {{% /notice %}}
 
-## Sign in process
+If you are registered, you can skip the registration process section and read
+the [Sign in section below](#sign-in) to make sure to use your existing account
+**on our server** and not create a new account on another server like
+matrix.org.
+
+## Register using the Element Web App
+
+1. Open the Element Web App @ <https://chat.openscience.ca>;
+1. Click on the green _Create Account_ button;
+1. Fill in the form.
+   - Choose your username carefully since it is not possible to change it. We
+     recommend using your `FirstLastname` but you are free to pick any username
+     that complies with our Code of Conduct.
+   - Analogous to e-mail addresses, this results in matrix addresses with the
+     following structure: `@USERNAME:openscience.ca`
+   - E-mail address are mandatory on our server, this is to ensure you can reset
+     your password at anytime.
+1. Click on the _Register_ button.
+1. Voilà, you should now be signed in to the Matrix 🌐!
+
+## Sign in
 
 1. Click on the blue _Sign in_ button.
 1. The default option is to enter your _Username_, but you can change the

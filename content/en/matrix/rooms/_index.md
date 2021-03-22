@@ -13,7 +13,7 @@ you to:
 
 ## - [find / leave rooms]({{< relref "find-leave" >}})
 
-## - [create rooms]({{< relref "create" >}})
+## - [create rooms and adjust settings]({{< relref "create" >}})
 
 ## - [delete rooms]({{< relref "delete" >}})
 

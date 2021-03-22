@@ -1,23 +1,29 @@
 ---
 title: "Element Desktop"
-date: 2020-10-12T09:27:07+02:00
 draft: false
-chapter: false
 weight: 20
 ---
-
-## Element Desktop
 
 Downloads for:
 {{% button href="https://packages.riot.im/desktop/install/win32/x64/Element%20Setup.exe" icon="fas fa-download" %}}Windows{{% /button %}}
 {{% button href="https://packages.riot.im/desktop/install/macos/Element.dmg" icon="fas fa-download" %}}macOS{{% /button %}}
 {{% button href="/clients/install_linux" icon="fas fa-download" %}}Linux{{% /button %}}
 
-After installing the Element Desktop client, you will have to register if you
-have not registered yet. Otherwise, you can skip the registration process
-section and read the [Sign in section below](#sign-in) to make sure to use your
-existing account **on our server** and not create a new account on another
-server like matrix.org.
+{{% notice info %}} After installing the Element Desktop client, you will have
+to register if you have not registered yet. As said in the previous sections,
+the first time you use our service, you have to register unless you have already
+registered with another matrix server and know how to join our server through
+the federation.
+
+If you require help during the registration process, refer to the [First
+steps]({{% ref "matrix/first-steps" %}}) section.
+
+{{% /notice %}}
+
+If you are registered, you can skip the registration process section and read
+the [Sign in section below](#sign-in) to make sure to use your existing account
+**on our server** and not create a new account on another server like
+matrix.org.
 
 ### Registration process through the Element App
 
@@ -28,8 +34,12 @@ server like matrix.org.
 1. Fill in the form. Choose your username carefully since it is not possible to
    change it. We recommend using your `FirstLastname` but you are free to pick
    any username that complies with our Code of Conduct.
+   - Analogous to e-mail addresses, this results in matrix addresses with the
+     following structure: `@USERNAME:openscience.ca`
+   - E-mail address are mandatory on our server, this is to ensure you can reset
+     your password at anytime.
 1. Click on the _Register_ button.
-1. Voilà, you should now be signed in in the Matrix 🌐!
+1. Voilà, you should now be signed in to the Matrix 🌐!
 
 ### Sign in
 
