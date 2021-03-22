@@ -61,13 +61,13 @@ outside Matrix, click on "Share room" and you will see a link starting with
 ---
 
 {{% expand "Can I write LaTeX formulas?" %}} It is an experimental feature as of
-March 2021. It will be available for everybody within the coming weeks. You can
-get the latest update from this
+the time of updating this page. It will be available for everybody in the near
+future. You can get the latest update from this
 [issue](https://github.com/vector-im/element-web/issues/1945). {{% /expand %}}
 
 ---
 
-{{% expand "Are there something like Threads (like in Mattermost/Slack) in Matrix?" %}}
+{{% expand "Is there something like threading (like in Mattermost/Slack) in Matrix?" %}}
 No, threads like in Mattermost or Slack are currently not available in Matrix.
 The developers of Element are working hard to implement such functionality in
 the near future. In the meantime, you can hit the `reply` (↩️) button when you
