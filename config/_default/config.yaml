@@ -6,6 +6,7 @@ theme: learn
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: true
 
+enableEmoji: true
 removePathAccents: true
 outputs:
   home: ["HTML", "RSS", "JSON"]
